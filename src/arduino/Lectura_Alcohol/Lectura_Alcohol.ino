@@ -30,7 +30,7 @@ void loop() {
                   Serial.println("    ");
                 }
             
-           if (alcohol>8.3) // Cuando los niveles de alcohol pasen de 23.5 mg/L(miligramos por Litro) Activará el led
+           if (alcohol>8.3) // Cuando los niveles de alcohol pasen de 8.3 mg/L(miligramos por Litro) se activará el led y mostrará un mensaje en pantalla
                 {
                  digitalWrite(12, HIGH);   // turn the LED on (HIGH is the voltage level)
                  delay(30);                       // wait for a second
